@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="mt-10">
             <a
               href="#contact"
-              className="bg-indigo-500 hover:bg-indigo-600 text-white font-medium py-3 px-6 rounded-md"
+              className="bg-indigo-500 transition duration-500 hover:bg-indigo-600 text-white font-medium py-3 px-6 rounded-md"
             >
               Get in touch
             </a>

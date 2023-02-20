@@ -41,7 +41,10 @@ const About = () => {
           <div className="mt-8 flex justify-center">
             <ul className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {skillsData.map((skill, index) => (
-                <li key={index} className="flex flex-col items-center">
+                <li
+                  key={index}
+                  className="flex flex-col items-center cursor-pointer"
+                >
                   <img
                     className="h-10 w-10"
                     src={skill.logo}

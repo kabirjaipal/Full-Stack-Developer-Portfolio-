@@ -36,7 +36,7 @@ const Project = () => {
           {projectsData.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-200 rounded-lg overflow-hidden shadow-lg transition hover:bg-gray-300"
+              className="bg-gray-200 rounded-lg cursor-pointer overflow-hidden shadow-lg transition duration-700 hover:bg-gray-300"
             >
               <img
                 className="h-48 w-full object-cover"
